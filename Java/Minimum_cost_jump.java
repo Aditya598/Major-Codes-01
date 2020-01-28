@@ -1,3 +1,7 @@
+// a Java implementation of the Minimum Cost Jump algorithm.
+// the MCJ algorithm is a  dissimilarity algorithm, much like DTW, however it is computationally faster.
+// Takes two time series as inputs and outputs the dissimilarity measure between them
+
 import java.util.Scanner;
 
 public class MCJ {
