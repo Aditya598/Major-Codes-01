@@ -1,3 +1,5 @@
+// a C language implementation of the k-Nearest Neighbors algorithm
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
