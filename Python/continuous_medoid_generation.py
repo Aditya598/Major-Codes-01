@@ -1,3 +1,6 @@
+# Program continually generates, updates, and graphs medoid of input time series data at 
+# fixed intervals
+
 import matplotlib.pyplot as plt
 from time import process_time
 
