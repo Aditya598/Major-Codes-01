@@ -1,3 +1,7 @@
+// A learning vector quantization implementation in Java. 
+// Input feature vectors are the DTW output costs which then 
+// need to be classified 
+
 import com.sun.javaws.IconUtil;
 import sun.java2d.windows.GDIWindowSurfaceData;
 
