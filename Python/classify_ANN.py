@@ -1,4 +1,4 @@
-''''NN for classifying DTW cost outputs ***NEEDS MORE DATA AND FEATURES***'''
+# NN for classifying DTW cost outputs ***NEEDS MORE DATA AND FEATURES***
 
 import numpy as np
 from keras.models import Sequential
