@@ -1,3 +1,6 @@
+// A java implementation of the Dynamic Time Warping (DTW) algorithm
+// Compares two waves and outputs a similarity cost between them
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
