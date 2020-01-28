@@ -1,3 +1,6 @@
+// Input signal elongation using interpolation and smoothing of the elongated signal.
+
+
 import java.util.*;
 
 import flan
