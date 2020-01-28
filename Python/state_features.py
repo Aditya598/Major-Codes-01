@@ -1,3 +1,5 @@
+# Program for extracting few of the features of the EOG waveform
+
 def accept_wave():
     wave = []
     while True:
