@@ -1,3 +1,6 @@
+# Acquires real time data from EOG sensors for comparison and classification 
+
+
 import numpy as np
 import random
 import time
