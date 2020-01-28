@@ -246,9 +246,7 @@ def main():
     plt.plot(*zip(*state_2_probs))
     plt.plot(*zip(*state_3_probs))
     plt.show()
-
-    # buf_2 = [row[0] for row in state_2_probs]
-    # buf_3 = [row[0] for row in state_3_probs]
+    
     future_probs_state_2, future_freq_state_2 = get_future_elements(state_2_allsamples, [row[0] for row in state_2_probs])
     future_probs_state_3, future_freq_state_3 = get_future_elements(state_3_allsamples, [row[0] for row in state_3_probs])
     print()
@@ -265,13 +263,6 @@ def main():
     print('future state 3 elements and their probabilities')
     for i in future_probs_state_3:
         print(i)
-       
-    intra_state_2_st = []
-    intra_state_3_st = []
-    
-    # V = [0.06, 0.1, 0.08, 0.12, 0.14, 0.14, 0.16, 0.18, 0.2]
-    # forward_prob, likely_sequence_of_states = forward_algorithm(V, [row[1] for row in state_2_probs], [row[1] for row in state_3_probs],
-    #                                                             )
 
     distributed_generation([row[0] for row in state_2_probs], [row[1] for row in state_2_probs], 2, 10 ** 3)
     distributed_generation([row[0] for row in state_3_probs], [row[1] for row in state_3_probs], 3, 10 ** 3)
