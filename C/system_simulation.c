@@ -1,3 +1,5 @@
+// A simulation of the EOG system output at a particular arrangement of electrodes 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
