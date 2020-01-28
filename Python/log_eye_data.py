@@ -1,3 +1,6 @@
+# a data logger for movements  of eyes.
+# logs the type of eye movement and its time of occurence after start of the process
+
 import time
 
 
