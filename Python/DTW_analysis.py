@@ -1,3 +1,7 @@
+# DTW analysis and comparison of DTW algorithms
+# inclusion of DTW-derivative for greater accuracy
+# includes constrained DTW, memoized DTW, and LB_keogh
+
 import numpy as np
 import scipy as sp
 import scipy.signal as signal
