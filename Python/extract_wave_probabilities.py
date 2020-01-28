@@ -1,3 +1,7 @@
+# Computes probabilities of elements within a time series sequence
+# to use as HMM inputs.
+# Only works with one type of time series
+
 import numpy as np
 from numpy import trapz
 import matplotlib.pyplot as plt
