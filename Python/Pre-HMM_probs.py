@@ -1,3 +1,8 @@
+# analysis of time series data for computing probabilities to use in HMM
+# includes a direct graphing function for a cleaner main function
+# can work with more than one type of waveform
+
+
 import matplotlib.pyplot as plt
 from matplotlib import style
 from random import choices
