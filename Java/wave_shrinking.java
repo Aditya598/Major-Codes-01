@@ -1,3 +1,8 @@
+// A wave shrinking algorithm that takes a wave of a certain length greater than 128 and shrinks it down 
+// to 128 samples while still retaining the original shape
+// The program uses copyrighted code (for fft and ifft) along with the main code  
+
+
 /*
  * Free FFT and convolution (Java)
  *
