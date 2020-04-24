@@ -1,5 +1,6 @@
-# after testing for ~1000 testing sets, 2 hidden layers and ~500-1000 epochs give the best result
-# this can vary ofc. In our case I would suggest 1 layer with ~150-200 epochs
+# Python implementation of an ANN for our BE project. Based on the algorithm found at 
+# https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/
+# with major alterations to fit our needs
 
 from math import exp
 import random
