@@ -1,3 +1,6 @@
+// A C implementation of an artificial neural network. 
+// !! Work in progress: network can learn with sufficient accuracy. Prediction needs to be worked on.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
